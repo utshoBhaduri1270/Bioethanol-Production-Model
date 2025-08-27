@@ -57,14 +57,14 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 1. Open **BioEthanolProduction.slx** in MATLAB Simulink.
 2. Set initial conditions: X₀ = 1.5 kg/m³, S₀ = 220 kg/m³.
 3. Set temperature: 303 K.
-4. Run simulation for desired duration (e.g., 48 h).
+4. Run simulation for desired duration (e.g., 50 h).
 5. View **Scope** outputs for X, S, P over time.
 
 ---
 
 ## ✅ Outputs
 - **Biomass growth curve** (lag, exponential, stationary)
-- **Substrate depletion curve**
+- **Substrate(Glucose) depletion curve**
 - **Ethanol production curve**
 
 ---
