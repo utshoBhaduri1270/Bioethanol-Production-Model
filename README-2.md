@@ -18,13 +18,8 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 
 ---
 
-## 📊 Process Flow Diagram
-![Process Flow](diagrams/process_flow.png)
 
 ---
-
-## 📐 Model Structure (Simulink Block Diagram)
-![Simulink Model](diagrams/simulink_model.png)
 
 ---
 
@@ -109,8 +104,6 @@ k_d = 12.10^8 \exp\left(-\frac{6860}{T}\right)\ h^{-1}
 - MATLAB with Simulink  
 - Optimization Toolbox (optional for parameter estimation)  
 
----
 
-📌 **Author:** [Your Name]  
-📌 **License:** MIT  
-📌 **Contact:** [Your Email]
+
+
