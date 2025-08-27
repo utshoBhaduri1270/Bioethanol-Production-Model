@@ -30,31 +30,7 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 - **S (kg/m³):** Substrate concentration (glucose)  
 - **P (kg/m³):** Product concentration (ethanol)  
 
-### **Differential Equations**
-\[
-\frac{dX}{dt} = (\mu - k_d)X
-\]
-\[
-\frac{dS}{dt} = -\frac{1}{Y_{X/S}} \frac{dX}{dt} - mX
-\]
-\[
-\frac{dP}{dt} = -Y_{P/S}\frac{dS}{dt}
-\]
 
----
-
-## 🧪 Kinetic Model
-\[
-\mu_{max} = 0.33 \exp\left[-\frac{(T-303)^2}{200}\right]\ h^{-1}, \quad T \text{ in K}
-\]
-\[
-k_d = 12.10^8 \exp\left(-\frac{6860}{T}\right)\ h^{-1}
-\]
-\[
-\mu = \mu_{max} \frac{S}{K_s + S}
-\]
-
----
 
 ## 📌 Parameters
 
@@ -78,7 +54,7 @@ k_d = 12.10^8 \exp\left(-\frac{6860}{T}\right)\ h^{-1}
 ---
 
 ## ▶️ How to Run
-1. Open **bioethanol_model.slx** in MATLAB Simulink.
+1. Open **BioEthanolProduction.slx** in MATLAB Simulink.
 2. Set initial conditions: X₀ = 1.5 kg/m³, S₀ = 220 kg/m³.
 3. Set temperature: 303 K.
 4. Run simulation for desired duration (e.g., 48 h).
