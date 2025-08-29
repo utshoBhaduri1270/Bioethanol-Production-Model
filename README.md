@@ -37,11 +37,11 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 ### **Kinetic Parameters**
 | Parameter       | Value         |
 |-----------------|-------------|
-| \(K_s\)        | 1.7 kg/m³   |
-| \([P]_{max}\)  | 93 kg/m³    |
+| \(K<sub>s\)        | 1.7 kg/m³   |
+| \([P]<sub>max\)  | 93 kg/m³    |
 | \(n\)          | 0.52        |
-| \(Y_{X/S}\)    | 0.08        |
-| \(Y_{P/S}\)    | 0.45        |
+| \(Y<sub>X/S\)    | 0.08        |
+| \(Y<sub>P/S\)    | 0.45        |
 | \(m\)          | 0.03 h⁻¹   |
 
 ### **Process Conditions**
@@ -64,6 +64,7 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 
 ## ✅ Outputs
 - **Biomass growth curve** (lag, exponential, stationary)
+
 - **Substrate(Glucose) depletion curve**
 - **Ethanol production curve**
 
