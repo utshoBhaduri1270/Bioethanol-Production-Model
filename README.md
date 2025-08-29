@@ -37,12 +37,12 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 ### **Kinetic Parameters**
 | Parameter       | Value         |
 |-----------------|-------------|
-| \(K<sub>s\)        | 1.7 kg/m³   |
-| \([P]<sub>max\)  | 93 kg/m³    |
-| \(n\)          | 0.52        |
-| \(Y<sub>X/S\)    | 0.08        |
-| \(Y<sub>P/S\)    | 0.45        |
-| \(m\)          | 0.03 h⁻¹   |
+| K<sub>s         | 1.7 kg/m³   |
+| [P]<sub>max   | 93 kg/m³    |
+| n           | 0.52        |
+| Y<sub>X/S     | 0.08        |
+| Y<sub>P/S    | 0.45        |
+| m          | 0.03 h⁻¹   |
 
 ### **Process Conditions**
 | Parameter                      | Value          |
@@ -82,7 +82,7 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 - Understanding how factors like **intial glucose concentration**, **temperature**  or **pH** affects the rate of microbial growth and ethanol production.
 ---
 For more about **batch fermentation** and how the above output curves relate to each other visit -
-[Link Text](https://doi.org/10.1016/j.biortech.2003.09.009)
+[Link](https://doi.org/10.1016/j.biortech.2003.09.009)
 ### ✅ Requirements
 - MATLAB with Simulink  
 - Optimization Toolbox (optional for parameter estimation)  
