@@ -26,7 +26,7 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 ## 🔍 Model Description
 
 ### **State Variables**
-- **X (kg/m³):** Biomass concentration (*Saccharomyces cerevisiae*)  
+- **X (kg/m³):** Biomass concentration (*Saccharomyces cerevisiae*)
 - **S (kg/m³):** Substrate concentration (glucose)  
 - **P (kg/m³):** Product concentration (ethanol)  
 
@@ -64,7 +64,7 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 
 ## ✅ Outputs
 - **Biomass growth curve** (lag, exponential, stationary)
-
+- ![Growth concentration](Output/S.cerevisiae_concentration.png)
 - **Substrate(Glucose) depletion curve**
 - **Ethanol production curve**
 
