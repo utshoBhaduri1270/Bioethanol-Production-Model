@@ -64,19 +64,25 @@ The model uses **Monod-type kinetics with temperature-dependent growth and death
 
 ## ✅ Outputs
 - **Biomass growth curve** (lag, exponential, stationary)
-- ![Growth concentration](Output/S.cerevisiae_concentration.png)
+
+ ![Growth concentration](Outputs/S.cerevisiae_concentration.png)
 - **Substrate(Glucose) depletion curve**
+
+  ![Glucose_depletion](Outputs/Glucose_concentration.png)
 - **Ethanol production curve**
 
----
+![Ethanol Production](Outputs/Ethanol_Production.png)
+
+--
 
 ## 🔍 Applications
 - Bioethanol process optimization  
-- Fermentation strategy testing  
+- Fermentation strategy testing (**Identifying the optimal time to end the fermentation and collect the ethanol**) 
 - Sensitivity analysis of kinetic parameters  
-
+- Understanding how factors like **intial glucose concentration**, **temperature**  or **pH** affects the rate of microbial growth and ethanol production.
 ---
-
+For more about **batch fermentation** and how the above output curves relate to each other visit -
+[Link Text](https://doi.org/10.1016/j.biortech.2003.09.009)
 ### ✅ Requirements
 - MATLAB with Simulink  
 - Optimization Toolbox (optional for parameter estimation)  
